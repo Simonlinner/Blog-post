@@ -1,16 +1,16 @@
 .rubrik{
     display: flex;
     justify-content: space-evenly;
-    background-color: #067BC2;
+    background-color: #b5c2bc;
     margin: 0%;
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .noMargin{
-     margin: 0%;
+    margin: 0%;
 }
 
 .notext{
@@ -21,7 +21,20 @@ body{
 .huvud{
     display: flex;
     justify-content: center;
-    background-color: #84BCDA;
-    margin: 0%;
-    font-size: 30px;
+    padding-top: 10px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 0%;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+
 }
