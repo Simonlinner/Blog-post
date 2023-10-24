@@ -1,4 +1,4 @@
-.rubrik{
+.up{
     display: flex;
     justify-content: space-evenly;
     background-color: #b5c2bc;
@@ -13,28 +13,45 @@ body{
     margin: 0%;
 }
 
+.textMargin{
+    margin-bottom: 20px;
+}
+
 .notext{
     color: black;
     text-decoration: underline;
 }
 
-.huvud{
+.subheading{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
 }
 
 .intro{
     display: flex;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 0%;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-direction: column;
 }
 
 .map{
     display: flex;
     justify-content: center;
     height: 300px;
+}
 
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 150px;
+    background-color: #b5c2bc;
+    margin: 10px;
+
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
 }
