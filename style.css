@@ -1,24 +1,24 @@
 .up{
     display: flex;
     justify-content: space-evenly;
-    background-color: #b5c2bc;
+    background-color: #2a3f36;
     margin: 0%;
 }
 
 body{
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .noMargin{
-    margin: 0%;
+    margin: 0;
 }
 
 .textMargin{
     margin-bottom: 20px;
 }
 
-.notext{
-    color: black;
+.noText{
+    color: white;
     text-decoration: underline;
 }
 
@@ -35,23 +35,43 @@ body{
     flex-direction: column;
 }
 
-.map{
+.image{
     display: flex;
     justify-content: center;
     height: 300px;
+    margin: 15px;
 }
 
 .box {
     display: flex;
-    justify-content: space-evenly;
-    width: 150px;
-    height: 150px;
-    background-color: #b5c2bc;
-    margin: 10px;
-
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.welcome{
+.box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.column{
     display: flex;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fit{
+    object-fit: cover;
+}
+
+footer{
+    background-color: #2a3f36;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    width: 100%;
 }
