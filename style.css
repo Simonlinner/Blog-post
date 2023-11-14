@@ -1,12 +1,12 @@
+body{
+    background-color: whitesmoke;
+}
+
 .up{
     display: flex;
     justify-content: space-evenly;
     background-color: #2a3f36;
     margin: 0%;
-}
-
-body{
-    background-color: whitesmoke;
 }
 
 .noMargin{
@@ -20,6 +20,10 @@ body{
 .noText{
     color: white;
     text-decoration: underline;
+}
+
+.noText:hover{
+    color: rgb(222, 206, 206);
 }
 
 .subheading{
@@ -42,7 +46,7 @@ body{
     margin: 15px;
 }
 
-.box {
+.box{
     display: flex;
     justify-content: center;
     width: 250px;
@@ -63,10 +67,6 @@ body{
     margin-right: 20px;
 }
 
-.fit{
-    object-fit: cover;
-}
-
 footer{
     background-color: #2a3f36;
     color: #fff;
@@ -74,4 +74,5 @@ footer{
     padding: 10px;
     bottom: 0px;
     width: 100%;
+    margin-top: 20px;
 }
